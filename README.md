@@ -12,8 +12,4 @@ Hi 👋 I’m Manvi Kamboj, a Computer Science (CSE) B.Tech student and a passio
 ![](https://nirzak-streak-stats.vercel.app/?user=Manvikamboz&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Manvikamboz&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Manvikamboz&theme=dark&no-frame=false&no-bg=true&margin-w=4)
-
-[![](https://visitcount.itsvg.in/api?id=Manvikamboz&icon=4&color=10)](https://visitcount.itsvg.in)
 
