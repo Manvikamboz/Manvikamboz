@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi 👋 I’m Manvi Kamboj, a Computer Science (CSE) B.Tech student and a passionate programmer who enjoys building practical and impactful tech projects. I work across areas like web development, backend systems, cybersecurity, and Linux, and I love understanding technologies in depth—focusing not just on how things work, but why they work. I have experience with JavaScript, Python, Node.js, Express, MongoDB, MySQL, HTML, and CSS, and I enjoy learning by building real-world projects such as full-stack platforms, system tools, and game-based applications. I’m interested in open source, emerging technologies, and continuously improving my problem-solving and engineering skills.
+Hi 👋 I’m Manvi Kamboj, a Computer Science (CSE) B.Tech student and a passionate programmer who enjoys building practical and impactful tech projects. I’m interested in open source, emerging technologies, and continuously improving my problem-solving and engineering skills.
 
 
 ## 🌐 Socials:
