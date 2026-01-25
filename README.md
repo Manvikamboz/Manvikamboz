@@ -14,7 +14,7 @@
 
 - 🌱 I’m currently learning **Goland Backend, working on my critical problem solving skill by using C++ solve question on GFG and Leetcode**
 
-- 💬 Ask me about **you can share your issue I will be try my best to**
+- 💬 Ask me about **you can share your issue I will be try my best to solve**
 
 - 📫 How to reach me **kamboj176manvi@gmail.com**
 
