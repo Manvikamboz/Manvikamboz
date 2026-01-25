@@ -1,7 +1,12 @@
-<h1 align="center">Hi 👋, I'm Manvi Kamboj</h1>
+<h1 align="center"> me Manvi Kamboj</h1>
 <h3 align="center">Developer who want to build something unique!</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=manvikamboz&label=Profile%20views&color=0e75b6&style=flat" alt="manvikamboz" /> </p>
+
+
+[![trophy](https://github-profile-trophy.vercel.app/?manvikamboz=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
+
+
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=manvikamboz" alt="manvikamboz" /></a> </p>
 
