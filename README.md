@@ -10,7 +10,7 @@
 
 <!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=manvikamboz" alt="manvikamboz" /></a> </p> -->
 
-- 🔭 I’m currently working on [RoomieMatch](https://github.com/Manvikamboz/RoomieMatch)
+- 🔭 I’m currently working on [CrediShield](https://github.com/Manvikamboz/RoomieMatch)
 
 - 🌱 I’m currently learning **Goland Backend, working on my critical problem solving skill by using C++ solve question on GFG and Leetcode**
 
