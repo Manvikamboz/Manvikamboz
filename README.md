@@ -12,7 +12,7 @@
 
 - 🔭 I’m currently working on [CrediShield](https://github.com/MinalPeriwal/CrediShield)
 
-- 🌱 I’m currently learning **Goland Backend, working on my critical problem solving skill by using C++ solve question on GFG and Leetcode**
+- 🌱 I’m currently learning **critical problem solving skill by using C++ solve question on GFG and Leetcode**
 
 - 💬 Ask me about **C++ (DSA)**
 
