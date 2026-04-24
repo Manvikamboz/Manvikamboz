@@ -19,13 +19,20 @@
 - 📫 How to reach me **kamboj176manvi@gmail.com**
 
 - ⚡ Fun fact **I am overthinker! but when I decide to do something I do it up to my best 🤙**
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/manvi_kamboj17" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="manvi_kamboj17" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/manvikmaboj" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="manvikmaboj" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/master_17" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="master_17" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/manvikamboj" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="manvikamboj" height="30" width="40" /></a>
+<a href="https://twitter.com/manvi_kamboj17" target="blank" style="margin-right:15px;">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="manvi_kamboj17" height="30" width="40" />
+</a>
+<a href="https://linkedin.com/in/manvikmaboj" target="blank" style="margin-right:15px;">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="manvikmaboj" height="30" width="40" />
+</a>
+<a href="https://www.leetcode.com/master_17" target="blank" style="margin-right:15px;">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="master_17" height="30" width="40" />
+</a>
+<a href="https://auth.geeksforgeeks.org/user/manvikamboj" target="blank">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="manvikamboj" height="30" width="40" />
+</a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
