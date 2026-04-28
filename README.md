@@ -1,41 +1,43 @@
-<h1 align="center">Manvi Kamboj, this side</h1>
-<h3 align="center"> Enjoy Brainstorming! </h3>
-
-<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=manvikamboz&label=Profile%20views&color=0e75b6&style=flat" alt="manvikamboz" /> </p>
+<h1 align="center">Manvi Kamboj</h1>
+    <!-- <h3 align="center"> Enjoy Brainstorming! </h3> -->
 
 
-[![trophy](https://github-profile-trophy.vercel.app/?manvikamboz=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy) -->
+    <!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=manvikamboz" alt="manvikamboz" /></a> </p> -->
 
+    - 🔭 I’m currently working on [EdgeSight](https://github.com/Manvikamboz/EdgeVision-ANPR-)
 
+    - 🌱 I’m currently learning **critical problem solving skill by using C++ solve question on GFG and Leetcode**
 
-<!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=manvikamboz" alt="manvikamboz" /></a> </p> -->
+    - 💬 Ask me about **C++ (DSA)**
 
-- 🔭 I’m currently working on [CrediShield](https://github.com/MinalPeriwal/CrediShield)
+    - 📫 How to reach me **kamboj176manvi@gmail.com**
 
-- 🌱 I’m currently learning **critical problem solving skill by using C++ solve question on GFG and Leetcode**
+    -   **I am a Mint linux User**
+    <h3 align="left">Connect with me:</h3>
+    <p align="left">
+        <a href="https://twitter.com/manvi_kamboj17" target="blank" style="margin-right:15px;">
+            <img align="center"
+                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
+                alt="manvi_kamboj17" height="30" width="40" />
+        </a>
+        <a href="https://linkedin.com/in/manvikmaboj" target="blank" style="margin-right:15px;">
+            <img align="center"
+                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+                alt="manvikmaboj" height="30" width="40" />
+        </a>
+        <a href="https://www.leetcode.com/master_17" target="blank" style="margin-right:15px;">
+            <img align="center"
+                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg"
+                alt="master_17" height="30" width="40" />
+        </a>
+        <a href="https://auth.geeksforgeeks.org/user/manvikamboj" target="blank">
+            <img align="center"
+                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg"
+                alt="manvikamboj" height="30" width="40" />
+        </a>
+    </p>
 
-- 💬 Ask me about **C++ (DSA)**
-
-- 📫 How to reach me **kamboj176manvi@gmail.com**
-
-- ⚡ Fun fact **I am overthinker! but when I decide to do something I do it up to my best 🤙**
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/manvi_kamboj17" target="blank" style="margin-right:15px;">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="manvi_kamboj17" height="30" width="40" />
-</a>
-<a href="https://linkedin.com/in/manvikmaboj" target="blank" style="margin-right:15px;">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="manvikmaboj" height="30" width="40" />
-</a>
-<a href="https://www.leetcode.com/master_17" target="blank" style="margin-right:15px;">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="master_17" height="30" width="40" />
-</a>
-<a href="https://auth.geeksforgeeks.org/user/manvikamboj" target="blank">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="manvikamboj" height="30" width="40" />
-</a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
+    <h3 align="left">Languages and Tools:</h3>
     <p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"><a> </a><img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"
                 width="40" height="40" /> </a> <a href="https://www.w3schools.com/cpp/" target="_blank"
@@ -49,13 +51,8 @@
                 width="40" height="40" /> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"><a> </a>
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
                 alt="express" width="40" height="40" /> </a> <a href="https://golang.org" target="_blank"
-            rel="noreferrer"><a> </a> 
-                    <!-- <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go"
-                width="40" height="40" /> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"><a>
-            </a>  -->
-                    <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+            rel="noreferrer"><a> </a>
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
                 alt="html5" width="40" height="40" /> </a> <a
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><a> </a><img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
@@ -77,5 +74,3 @@
             rel="noreferrer"> <img
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
                 alt="python" width="40" height="40" /> </a> </p>
-
-<!-- <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=manvikamboz&show_icons=true&locale=en&layout=compact" alt="manvikamboz" /></p> -->
