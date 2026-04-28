@@ -12,7 +12,7 @@ I like building practical tools, solving algorithmic problems, and learning how 
   Your browser does not support the video tag.
 </video>
 
-[Watch the coding clip](assets/coding.mp4)
+[Watch the coding clip](coding.mp4)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manvikmaboj)
 [![Twitter](https://img.shields.io/badge/Twitter-111827?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/manvi_kamboj17)
