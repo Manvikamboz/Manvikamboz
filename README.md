@@ -46,7 +46,6 @@ An ANPR-focused project for vehicle number plate recognition and edge-based visi
 
 [![Repo](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Manvikamboz/EdgeVision-ANPR-)
 
-## Coding Memes
 
 ```cpp
 while (bug.exists()) {
