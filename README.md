@@ -61,11 +61,13 @@ while (bug.exists()) {
 
 ## Current Focus
 
-```txt
-C++ DSA       [#########---]
-Backend Dev   [#######-----]
-Databases     [######------]
-Linux         [########----]
-```
+| Focus Area | What I'm sharpening | Momentum |
+| --- | --- | --- |
+| **C++ DSA** | Daily problem-solving reps, clean logic, and pattern recognition | `████████░░` |
+| **EdgeSight ANPR** | Number plate recognition experiments and practical computer vision flow | `███████░░░` |
+| **Backend APIs** | Routes, databases, architecture, and project structure | `██████░░░░` |
+| **Linux Workflow** | Faster terminal habits, Git practice, and development setup | `████████░░` |
+
+**Now sharpening:** readable code, practical project depth, and stronger backend fundamentals.
 
 ---
