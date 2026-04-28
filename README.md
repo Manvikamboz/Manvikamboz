@@ -2,8 +2,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2800&pause=900&color=35C2FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Manvi+Kamboj;C%2B%2B+%2B+DSA+Learner;Building+EdgeSight;Linux+Mint+User" alt="Typing intro" />
 
-# Manvi Kamboj
-
 **C++ DSA enthusiast | Backend learner | Linux Mint user**
 
 I like building practical tools, solving algorithmic problems, and learning how systems behave under the hood.
