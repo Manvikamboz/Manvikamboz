@@ -40,21 +40,12 @@ An ANPR-focused project for vehicle number plate recognition and edge-based visi
 
 [![Repo](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Manvikamboz/EdgeVision-ANPR-)
 
-## Coding Memes
-
 ```cpp
 while (bug.exists()) {
     cout << "It works on my machine" << endl;
     debug();
 }
 ```
-
-| My Brain During DSA | Reality |
-| --- | --- |
-| I can solve this in 10 minutes | 2 hours later: missing semicolon |
-| Just one more test case | Runtime error has entered the chat |
-| I understand recursion now | Wait, why is the stack crying? |
-
 > Current mood: converting caffeine into accepted submissions.
 
 ## GitHub Snapshot
