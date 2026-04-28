@@ -69,9 +69,3 @@ Linux         [########----]
 ```
 
 ---
-
-<div align="center">
-
-**Thanks for visiting my profile. Keep building, keep solving.**
-
-</div>
