@@ -20,7 +20,7 @@ I like building practical tools, solving algorithmic problems, and learning how 
 
 ## About Me
 
-- Currently working on [EdgeSight](https://github.com/Manvikamboz/EdgeVision-ANPR-)
+- Currently working on [Startora](https://github.com/Manvikamboz/Startora)
 - Practicing problem solving with **C++**, **GFG**, and **LeetCode**
 - Ask me about **C++** and **DSA**
 - Exploring backend development, databases, and clean project architecture
