@@ -6,7 +6,9 @@
 
 I like building practical tools, solving algorithmic problems, and learning how systems behave under the hood.
 
-<img src="assets/coding.gif" width="420" alt="Coding animation" />
+<video src="assets/coding_girl.mp4" width="420" controls autoplay loop muted>
+  Your browser does not support the video tag.
+</video>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manvikmaboj)
 [![Twitter](https://img.shields.io/badge/Twitter-111827?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/manvi_kamboj17)
