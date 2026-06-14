@@ -31,7 +31,7 @@ I like building practical tools, solving algorithmic problems, and learning how 
 **Languages**
 <p align="left">
   <img src="https://skillicons.dev/icons?i=cpp,js,ts,py,html,css" alt="Languages" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="48" height="48" alt="SQL" />
 </p>
 
 **Frameworks & Libraries**
