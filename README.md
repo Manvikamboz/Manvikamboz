@@ -84,6 +84,4 @@ My latest public pull requests, updated automatically:
 | [#199 fix: prevent failed IFTTT deliveries from being saved as successful s…](https://github.com/alexwohlbruck/cat-facts/pull/199) | [#198 No error handling when IFTTT message requests fail](https://github.com/alexwohlbruck/cat-facts/issues/198) | `alexwohlbruck/cat-facts` | Open |
 <!--END_SECTION:contributions-->
 
-[View all pull requests](https://github.com/pulls?q=is%3Apr+author%3AManvikamboz)
-
 ---
