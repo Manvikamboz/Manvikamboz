@@ -28,8 +28,23 @@ I like building practical tools, solving algorithmic problems, and learning how 
 
 ## Tech Stack
 
+**Languages**
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=c,cpp,html,css,js,python,django,nodejs,express,mongodb,mysql,linux,postman,git,github&perline=8" alt="Tech stack icons" />
+  <img src="https://skillicons.dev/icons?i=cpp,js,ts,py,html,css" alt="Languages" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
+</p>
+
+**Frameworks & Libraries**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,tailwind,pytorch,opencv,django,flask" alt="Frameworks" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
+</p>
+
+**Tools & Platforms**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=linux,git,github,mongodb,docker,aws" alt="Tools" />
 </p>
 
 ## Featured Project
