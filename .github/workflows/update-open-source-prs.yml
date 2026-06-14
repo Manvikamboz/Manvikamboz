@@ -1,6 +1,12 @@
 name: Update Open Source Contributions
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "scripts/update_contributions.py"
+      - ".github/workflows/update-open-source-prs.yml"
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:

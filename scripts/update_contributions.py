@@ -2,6 +2,8 @@
 
 import json
 import os
+import re
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -20,6 +22,7 @@ query($searchQuery: String!) {
         url
         state
         mergedAt
+        body
         repository { nameWithOwner }
         closingIssuesReferences(first: 5) {
           nodes {
@@ -63,6 +66,47 @@ def fetch_pull_requests():
     return [node for node in result["data"]["search"]["nodes"] if node]
 
 
+def fetch_issue(repository, number):
+    token = os.environ["GITHUB_TOKEN"]
+    request = urllib.request.Request(
+        f"https://api.github.com/repos/{repository}/issues/{number}",
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "profile-readme-updater",
+        },
+    )
+    try:
+        with urllib.request.urlopen(request) as response:
+            issue = json.load(response)
+    except urllib.error.HTTPError:
+        return None
+    if "pull_request" in issue:
+        return None
+    return {
+        "number": issue["number"],
+        "title": issue["title"],
+        "url": issue["html_url"],
+    }
+
+
+def related_issues(pr):
+    issues = pr["closingIssuesReferences"]["nodes"]
+    if issues:
+        return issues
+
+    repository = pr["repository"]["nameWithOwner"]
+    references = dict.fromkeys(re.findall(r"\#(\d+)", pr.get("body") or ""))
+    resolved = []
+    for number in list(references)[:5]:
+        if int(number) == pr["number"]:
+            continue
+        issue = fetch_issue(repository, number)
+        if issue:
+            resolved.append(issue)
+    return resolved
+
+
 def make_table(pull_requests):
     lines = [
         "| Pull Request | Related Issue | Repository | Status |",
@@ -70,7 +114,7 @@ def make_table(pull_requests):
     ]
     for pr in pull_requests:
         pr_link = f"[#{pr['number']} {escape(pr['title'])}]({pr['url']})"
-        issues = pr["closingIssuesReferences"]["nodes"]
+        issues = related_issues(pr)
         issue_links = "<br>".join(
             f"[#{issue['number']} {escape(issue['title'])}]({issue['url']})"
             for issue in issues
