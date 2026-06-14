@@ -70,4 +70,13 @@ while (bug.exists()) {
 
 **Now sharpening:** readable code, practical project depth, and stronger backend fundamentals.
 
+## Open Source Contributions
+
+My latest public pull requests, updated automatically:
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+[View all pull requests](https://github.com/pulls?q=is%3Apr+author%3AManvikamboz)
+
 ---

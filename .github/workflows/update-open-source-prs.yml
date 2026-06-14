@@ -1,0 +1,26 @@
+name: Update Open Source Contributions
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Add recent pull requests to README
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          GH_USERNAME: Manvikamboz
+          FILTER_EVENTS: PullRequestEvent
+          MAX_LINES: 5
+          COMMIT_MSG: "docs: update recent open source contributions"
