@@ -78,12 +78,12 @@ while (bug.exists()) {
 
 | Focus Area | What I'm sharpening | Momentum |
 | --- | --- | --- |
-| **C++ DSA** | Daily problem-solving reps, clean logic, and pattern recognition | `████████░░` |
-| **EdgeSight ANPR** | Number plate recognition experiments and practical computer vision flow | `███████░░░` |
-| **Backend APIs** | Routes, databases, architecture, and project structure | `██████░░░░` |
+| **C++ DSA** | Daily problem-solving reps, clean logic, and pattern recognition | `██████░░░░` |
+| **Open Source** | Contributing to real-world projects, reading codebases, and shipping fixes | `███████░░░` |
 | **Linux Workflow** | Faster terminal habits, Git practice, and development setup | `████████░░` |
+| **System Design** | Scalable architecture, design patterns, and clean project structure | `█████████░` |
 
-**Now sharpening:** readable code, practical project depth, and stronger backend fundamentals.
+**Now sharpening:** open source impact, system thinking, and deeper Linux fundamentals.
 
 ## Open Source Contributions
 
