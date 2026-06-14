@@ -49,11 +49,11 @@ I like building practical tools, solving algorithmic problems, and learning how 
 
 ## Featured Project
 
-### EdgeSight
+### Startora
 
-An ANPR-focused project for vehicle number plate recognition and edge-based vision experiments.
+The open-source startup operating system for students. Think GitHub meets LinkedIn meets Y Combinator — built to help student founders discover teammates, validate ideas, and build venture-scale startups before they leave university.
 
-[![Repo](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Manvikamboz/EdgeVision-ANPR-)
+[![Repo](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Manvikamboz/Startora)
 
 ```cpp
 while (bug.exists()) {
