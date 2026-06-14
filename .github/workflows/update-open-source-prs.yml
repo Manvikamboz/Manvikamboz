@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  issues: read
+  pull-requests: read
 
 jobs:
   update-readme:
@@ -15,12 +17,19 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@v4
 
-      - name: Add recent pull requests to README
-        uses: jamesgeorge007/github-activity-readme@master
+      - name: Build contribution table
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          GH_USERNAME: Manvikamboz
-          FILTER_EVENTS: PullRequestEvent
-          MAX_LINES: 5
-          COMMIT_MSG: "docs: update recent open source contributions"
+        run: python3 scripts/update_contributions.py
+
+      - name: Commit README changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "No contribution changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: update recent open source contributions"
+          git push

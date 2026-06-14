@@ -74,8 +74,11 @@ while (bug.exists()) {
 
 My latest public pull requests, updated automatically:
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+<!--START_SECTION:contributions-->
+| Pull Request | Related Issue | Repository | Status |
+| --- | --- | --- | --- |
+| Waiting for the first workflow run | - | - | - |
+<!--END_SECTION:contributions-->
 
 [View all pull requests](https://github.com/pulls?q=is%3Apr+author%3AManvikamboz)
 
