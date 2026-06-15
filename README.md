@@ -92,11 +92,11 @@ My latest public pull requests, updated automatically:
 <!--START_SECTION:contributions-->
 | Pull Request | Related Issue | Repository | Status |
 | --- | --- | --- | --- |
+| [#38473 Fix JIT compilation cache false hits on closed-over leaked tracers](https://github.com/jax-ml/jax/pull/38473) | [#38460 An edge-case false cache hit for `jax.jit` tracing.](https://github.com/jax-ml/jax/issues/38460) | `jax-ml/jax` | Open |
 | [#5320 Fix security-sensitive testcase enumeration in issue redirector by en…](https://github.com/google/clusterfuzz/pull/5320) | [#5319 /issue/<testcase_id> redirector omits the testcase access check, disclosing the existence and restricted bug URL of security-sensitive testcases](https://github.com/google/clusterfuzz/issues/5319) | `google/clusterfuzz` | Open |
 | [#3 Merge pull request #2 from Manvikamboz/main](https://github.com/Manvikamboz/ManviKamboj.github.io/pull/3) | Not linked | `Manvikamboz/ManviKamboj.github.io` | Merged |
 | [#2 deployment and read me file updation](https://github.com/Manvikamboz/ManviKamboj.github.io/pull/2) | Not linked | `Manvikamboz/ManviKamboj.github.io` | Merged |
 | [#1 added Elements](https://github.com/Manvikamboz/ManviKamboj.github.io/pull/1) | Not linked | `Manvikamboz/ManviKamboj.github.io` | Merged |
-| [#199 fix: prevent failed IFTTT deliveries from being saved as successful s…](https://github.com/alexwohlbruck/cat-facts/pull/199) | [#198 No error handling when IFTTT message requests fail](https://github.com/alexwohlbruck/cat-facts/issues/198) | `alexwohlbruck/cat-facts` | Open |
 <!--END_SECTION:contributions-->
 
 ---
