@@ -92,11 +92,11 @@ My latest public pull requests, updated automatically:
 <!--START_SECTION:contributions-->
 | Pull Request | Related Issue | Repository | Status |
 | --- | --- | --- | --- |
+| [#533 fix(youtube): prioritize in-window videos for transcript fetching](https://github.com/mvanhorn/last30days-skill/pull/533) | [#531 YouTube transcript budget is spent on out-of-window videos, leaving the final report with 0 transcripts (and a false "stale yt-dlp" nudge)](https://github.com/mvanhorn/last30days-skill/issues/531) | `mvanhorn/last30days-skill` | Closed |
 | [#375 Fix image formats, sizes, and remove non-image files in breed directories](https://github.com/jigsawpieces/dog-api-images/pull/375) | Not linked | `jigsawpieces/dog-api-images` | Merged |
 | [#38473 Fix JIT compilation cache false hits on closed-over leaked tracers](https://github.com/jax-ml/jax/pull/38473) | [#38460 An edge-case false cache hit for `jax.jit` tracing.](https://github.com/jax-ml/jax/issues/38460) | `jax-ml/jax` | Open |
 | [#5320 Fix security-sensitive testcase enumeration in issue redirector by en…](https://github.com/google/clusterfuzz/pull/5320) | [#5319 /issue/<testcase_id> redirector omits the testcase access check, disclosing the existence and restricted bug URL of security-sensitive testcases](https://github.com/google/clusterfuzz/issues/5319) | `google/clusterfuzz` | Open |
 | [#3 Merge pull request #2 from Manvikamboz/main](https://github.com/Manvikamboz/ManviKamboj.github.io/pull/3) | Not linked | `Manvikamboz/ManviKamboj.github.io` | Merged |
-| [#2 deployment and read me file updation](https://github.com/Manvikamboz/ManviKamboj.github.io/pull/2) | Not linked | `Manvikamboz/ManviKamboj.github.io` | Merged |
 <!--END_SECTION:contributions-->
 
 ---
