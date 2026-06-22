@@ -9,7 +9,7 @@ I like building practical tools, solving algorithmic problems, and learning how 
 <img src="assets/coding_girl.gif" width="420" alt="Coding girl animation" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manvikmaboj)
-[![Twitter](https://img.shields.io/badge/Twitter-111827?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/manvi_kamboj17)
+[![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/manvi_kamboj)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://www.leetcode.com/master_17)
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/manvikamboj)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kamboj176manvi@gmail.com)
