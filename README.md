@@ -92,11 +92,11 @@ My latest public pull requests, updated automatically:
 <!--START_SECTION:contributions-->
 | Pull Request | Related Issue | Repository | Status |
 | --- | --- | --- | --- |
+| [#4 fix(backend): fix keyword argument in analytics background refresh](https://github.com/iTulsi/OrbitOPS/pull/4) | Not linked | `iTulsi/OrbitOPS` | Open |
+| [#3 fix(backend): fix force TLE refresh parameter mismatch](https://github.com/iTulsi/OrbitOPS/pull/3) | [#2 bug: Force fetch endpoint does not propagate force_refresh=True to orbital data provider](https://github.com/iTulsi/OrbitOPS/issues/2) | `iTulsi/OrbitOPS` | Open |
 | [#10 Refactor discovery](https://github.com/Manvikamboz/FoodSpot/pull/10) | Not linked | `Manvikamboz/FoodSpot` | Merged |
 | [#9 docs: remove hero.png from README.md](https://github.com/Manvikamboz/FoodSpot/pull/9) | Not linked | `Manvikamboz/FoodSpot` | Merged |
 | [#8 rebrand Smart Cafe to FoodSpot aggregator, implement location discovery and Swiggy simulation](https://github.com/Manvikamboz/FoodSpot/pull/8) | Not linked | `Manvikamboz/FoodSpot` | Merged |
-| [#157 fix: resolve test failure on Node.js < 20.11.0 by using new URL](https://github.com/DietrichGebert/ponytail/pull/157) | [#156 Bug: Test suite fails on Node.js versions < 20.11.0 due to import.meta.dirname usage](https://github.com/DietrichGebert/ponytail/issues/156) | `DietrichGebert/ponytail` | Merged |
-| [#549 fix: add missing FitnessCenter schema fields](https://github.com/parthbuilds-community/FitMart/pull/549) | [#533 Fix: Update FitnessCenter Schema to include missing seed data fields (#359)](https://github.com/parthbuilds-community/FitMart/issues/533) | `parthbuilds-community/FitMart` | Open |
 <!--END_SECTION:contributions-->
 
 ---
