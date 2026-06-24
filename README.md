@@ -94,9 +94,9 @@ My latest public pull requests, updated automatically:
 | --- | --- | --- | --- |
 | [#4 fix(backend): fix keyword argument in analytics background refresh](https://github.com/iTulsi/OrbitOPS/pull/4) | Not linked | `iTulsi/OrbitOPS` | Merged |
 | [#3 fix(backend): fix force TLE refresh parameter mismatch](https://github.com/iTulsi/OrbitOPS/pull/3) | [#2 bug: Force fetch endpoint does not propagate force_refresh=True to orbital data provider](https://github.com/iTulsi/OrbitOPS/issues/2) | `iTulsi/OrbitOPS` | Merged |
-| [#1 fix(auth): resolve firebase otp auth errors and add local demo bypass](https://github.com/Manvikamboz/Common-Hero/pull/1) | Not linked | `Manvikamboz/Common-Hero` | Merged |
 | [#10 Refactor discovery](https://github.com/Manvikamboz/FoodSpot/pull/10) | Not linked | `Manvikamboz/FoodSpot` | Merged |
 | [#9 docs: remove hero.png from README.md](https://github.com/Manvikamboz/FoodSpot/pull/9) | Not linked | `Manvikamboz/FoodSpot` | Merged |
+| [#8 rebrand Smart Cafe to FoodSpot aggregator, implement location discovery and Swiggy simulation](https://github.com/Manvikamboz/FoodSpot/pull/8) | Not linked | `Manvikamboz/FoodSpot` | Merged |
 <!--END_SECTION:contributions-->
 
 ---
