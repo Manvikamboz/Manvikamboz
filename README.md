@@ -92,11 +92,11 @@ My latest public pull requests, updated automatically:
 <!--START_SECTION:contributions-->
 | Pull Request | Related Issue | Repository | Status |
 | --- | --- | --- | --- |
+| [#3 feat: complete push notifications dispatcher, add brand logo, and ext…](https://github.com/Manvikamboz/Common-Hero/pull/3) | Not linked | `Manvikamboz/Common-Hero` | Merged |
 | [#5320 Fix security-sensitive testcase enumeration in issue redirector by en…](https://github.com/google/clusterfuzz/pull/5320) | [#5319 /issue/<testcase_id> redirector omits the testcase access check, disclosing the existence and restricted bug URL of security-sensitive testcases](https://github.com/google/clusterfuzz/issues/5319) | `google/clusterfuzz` | Open |
 | [#2 feat: initialize firebase app check, set debug token, and update csp …](https://github.com/Manvikamboz/Common-Hero/pull/2) | Not linked | `Manvikamboz/Common-Hero` | Merged |
 | [#4 fix(backend): fix keyword argument in analytics background refresh](https://github.com/iTulsi/OrbitOPS/pull/4) | Not linked | `iTulsi/OrbitOPS` | Merged |
 | [#3 fix(backend): fix force TLE refresh parameter mismatch](https://github.com/iTulsi/OrbitOPS/pull/3) | [#2 bug: Force fetch endpoint does not propagate force_refresh=True to orbital data provider](https://github.com/iTulsi/OrbitOPS/issues/2) | `iTulsi/OrbitOPS` | Merged |
-| [#1 fix(auth): resolve firebase otp auth errors and add local demo bypass](https://github.com/Manvikamboz/Common-Hero/pull/1) | Not linked | `Manvikamboz/Common-Hero` | Merged |
 <!--END_SECTION:contributions-->
 
 ---
