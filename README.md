@@ -92,11 +92,11 @@ My latest public pull requests, updated automatically:
 <!--START_SECTION:contributions-->
 | Pull Request | Related Issue | Repository | Status |
 | --- | --- | --- | --- |
-| [#111 Refactor theme system to configuration-driven key system and expand c…](https://github.com/srizzon/git-city/pull/111) | [#100 [Feature] Expand Theme System with Additional Color Palettes](https://github.com/srizzon/git-city/issues/100) | `srizzon/git-city` | Open |
+| [#2 docs: add unified header navigation bar across documentation files](https://github.com/Can-Startora/Startora/pull/2) | Not linked | `Can-Startora/Startora` | Merged |
+| [#1 docs: establish community guidelines, roadmap infographic](https://github.com/Can-Startora/Startora/pull/1) | Not linked | `Can-Startora/Startora` | Merged |
 | [#4032 Fix race condition in PHPParserUnitTests caused by shared SQLite database](https://github.com/eranif/codelite/pull/4032) | [#4017 ctest failures](https://github.com/eranif/codelite/issues/4017) | `eranif/codelite` | Open |
+| [#111 Refactor theme system to configuration-driven key system and expand c…](https://github.com/srizzon/git-city/pull/111) | [#100 [Feature] Expand Theme System with Additional Color Palettes](https://github.com/srizzon/git-city/issues/100) | `srizzon/git-city` | Open |
 | [#4 Formal Govt. Layout+ map issue resolve in the issue reporting page](https://github.com/Manvikamboz/Common-Hero/pull/4) | Not linked | `Manvikamboz/Common-Hero` | Merged |
-| [#3 feat: complete push notifications dispatcher, add brand logo, and ext…](https://github.com/Manvikamboz/Common-Hero/pull/3) | Not linked | `Manvikamboz/Common-Hero` | Merged |
-| [#5320 Fix security-sensitive testcase enumeration in issue redirector by en…](https://github.com/google/clusterfuzz/pull/5320) | [#5319 /issue/<testcase_id> redirector omits the testcase access check, disclosing the existence and restricted bug URL of security-sensitive testcases](https://github.com/google/clusterfuzz/issues/5319) | `google/clusterfuzz` | Open |
 <!--END_SECTION:contributions-->
 
 ---
