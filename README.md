@@ -6,7 +6,7 @@
 
 I like building practical tools, solving algorithmic problems, and learning how systems behave under the hood.
 
-<img src="assets/coding_girl.gif" width="420" alt="Coding girl animation" />
+<img src="assets/Running Cat.gif" width="420" alt="Running cat animation" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manvikmaboj)
 [![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/manvi_kamboj)
