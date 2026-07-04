@@ -8,11 +8,11 @@ I like building practical tools, solving algorithmic problems, and learning how 
 
 <img src="assets/Running Cat.gif" width="420" alt="Running cat animation" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manvikmaboj)
+<!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manvikmaboj)
 [![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/manvi_kamboj)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://www.leetcode.com/master_17)
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/manvikamboj)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kamboj176manvi@gmail.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kamboj176manvi@gmail.com) -->
 
 </div>
 
@@ -92,11 +92,11 @@ My latest public pull requests, updated automatically:
 <!--START_SECTION:contributions-->
 | Pull Request | Related Issue | Repository | Status |
 | --- | --- | --- | --- |
-| [#111 Refactor theme system to configuration-driven key system and expand c…](https://github.com/srizzon/git-city/pull/111) | [#100 [Feature] Expand Theme System with Additional Color Palettes](https://github.com/srizzon/git-city/issues/100) | `srizzon/git-city` | Closed |
 | [#4032 Fix race condition in PHPParserUnitTests caused by shared SQLite database](https://github.com/eranif/codelite/pull/4032) | [#4017 ctest failures](https://github.com/eranif/codelite/issues/4017) | `eranif/codelite` | Merged |
 | [#8 docs: remove NEWCOMER_ISSUES.md from repository tracking (keep local …](https://github.com/Can-Startora/Startora/pull/8) | Not linked | `Can-Startora/Startora` | Merged |
 | [#2 docs: add unified header navigation bar across documentation files](https://github.com/Can-Startora/Startora/pull/2) | Not linked | `Can-Startora/Startora` | Merged |
 | [#1 docs: establish community guidelines, roadmap infographic](https://github.com/Can-Startora/Startora/pull/1) | Not linked | `Can-Startora/Startora` | Merged |
+| [#111 Refactor theme system to configuration-driven key system and expand c…](https://github.com/srizzon/git-city/pull/111) | [#100 [Feature] Expand Theme System with Additional Color Palettes](https://github.com/srizzon/git-city/issues/100) | `srizzon/git-city` | Open |
 <!--END_SECTION:contributions-->
 
 ---
