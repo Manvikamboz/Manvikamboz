@@ -24,7 +24,7 @@
 
 ---
 
-## About Me
+<h2 align="center">About Me</h2>
 
 - Currently working on [Startora](https://github.com/Manvikamboz/Startora)
 - Practicing problem solving with **C++**
