@@ -165,11 +165,11 @@ My latest public pull requests, updated automatically:
 <!--START_SECTION:contributions-->
 | Pull Request | Related Issue | Repository | Status |
 | --- | --- | --- | --- |
+| [#93 fix(constants): correct Anthropic Opus model IDs](https://github.com/langchain-ai/openwiki/pull/93) | [#86 Two bugs in v0.0.1: Anthropic Opus model ID is invalid, and a single malformed tool call crashes the entire run](https://github.com/langchain-ai/openwiki/issues/86) | `langchain-ai/openwiki` | Open |
+| [#92 fix(agent): handle tool validation errors gracefully](https://github.com/langchain-ai/openwiki/pull/92) | [#86 Two bugs in v0.0.1: Anthropic Opus model ID is invalid, and a single malformed tool call crashes the entire run](https://github.com/langchain-ai/openwiki/issues/86) | `langchain-ai/openwiki` | Open |
+| [#111 Refactor theme system to configuration-driven key system and expand c…](https://github.com/srizzon/git-city/pull/111) | [#100 [Feature] Expand Theme System with Additional Color Palettes](https://github.com/srizzon/git-city/issues/100) | `srizzon/git-city` | Closed |
 | [#4032 Fix race condition in PHPParserUnitTests caused by shared SQLite database](https://github.com/eranif/codelite/pull/4032) | [#4017 ctest failures](https://github.com/eranif/codelite/issues/4017) | `eranif/codelite` | Merged |
 | [#8 docs: remove NEWCOMER_ISSUES.md from repository tracking (keep local …](https://github.com/Can-Startora/Startora/pull/8) | Not linked | `Can-Startora/Startora` | Merged |
-| [#2 docs: add unified header navigation bar across documentation files](https://github.com/Can-Startora/Startora/pull/2) | Not linked | `Can-Startora/Startora` | Merged |
-| [#1 docs: establish community guidelines, roadmap infographic](https://github.com/Can-Startora/Startora/pull/1) | Not linked | `Can-Startora/Startora` | Merged |
-| [#111 Refactor theme system to configuration-driven key system and expand c…](https://github.com/srizzon/git-city/pull/111) | [#100 [Feature] Expand Theme System with Additional Color Palettes](https://github.com/srizzon/git-city/issues/100) | `srizzon/git-city` | Open |
 <!--END_SECTION:contributions-->
 
 ---
