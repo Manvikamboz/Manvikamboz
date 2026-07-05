@@ -24,10 +24,6 @@
 
 ---
 
-<table>
-  <tr>
-    <td valign="top" width="55%">
-
 ## About Me
 
 - Currently working on [Startora](https://github.com/Manvikamboz/Startora)
@@ -36,13 +32,6 @@
 - Ask me about **C++** and **DSA**
 - Exploring backend development, databases, and clean project architecture
 - Daily driver: **Linux Mint**
-
-    </td>
-    <td valign="top" width="45%" align="center">
-      <img src="assets/GIt%20icon.png" width="380" alt="Git Icon" />
-    </td>
-  </tr>
-</table>
 
 <h2 align="center">
   <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/34376b0e-4ae2-4278-9d3d-82e8016a87d6" width="45" align="center" alt="Astronaut Cat" />
