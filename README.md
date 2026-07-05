@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Right floated Chibi GIF -->
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/406eb3e6-caba-401d-93c8-e0a7941c84b9" width="200" align="right" alt="Anime Chibi" />
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/406eb3e6-caba-401d-93c8-e0a7941c84b9" width="100" align="right" alt="Anime Chibi" />
   
   <!-- Left floated Animation GIF -->
   <img src="https://user-images.githubusercontent.com/74038190/212284164-662b26f5-a2e4-49cb-b675-4af56e609afa.gif" width="220" align="left" style="margin-right: 20px;" alt="Intro animation" />
