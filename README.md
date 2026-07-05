@@ -2,9 +2,9 @@
   <table>
     <tr>
       <td align="center" valign="middle">
-        <!-- <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2800&pause=900&color=35C2FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Manvi+Kamboj;C%2B%2B+%2B+DSA+Learner;Building+EdgeSight;Linux+Mint+User" alt="Typing intro" /> -->
+        <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=30&duration=3000&pause=1000&color=35C2FF&center=true&vCenter=true&width=650&lines=Yo!+I'm+Manvi+Kamboj;C%2B%2B+%26+DSA+Learner;Building+EdgeSight;Linux+Mint+User" alt="Typing intro" />
         <br>
-        <b>HEY! DEMON</b>
+        <b>Yo! I'm Manvi</b>
         <br>
         I like building practical tools, solving algorithmic problems, and learning how systems behave under the hood.
       </td>
