@@ -2,14 +2,14 @@
   <table>
     <tr>
       <td align="center" valign="middle">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2800&pause=900&color=35C2FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Manvi+Kamboj;C%2B%2B+%2B+DSA+Learner;Building+EdgeSight;Linux+Mint+User" alt="Typing intro" />
+        <!-- <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2800&pause=900&color=35C2FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Manvi+Kamboj;C%2B%2B+%2B+DSA+Learner;Building+EdgeSight;Linux+Mint+User" alt="Typing intro" /> -->
         <br>
-        <b>C++ DSA enthusiast | Backend learner | Linux Mint user</b>
+        <b>HEY! DEMON</b>
         <br>
         I like building practical tools, solving algorithmic problems, and learning how systems behave under the hood.
       </td>
       <td align="center" valign="middle">
-        <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/406eb3e6-caba-401d-93c8-e0a7941c84b9" width="110" alt="Anime Chibi" />
+        <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/406eb3e6-caba-401d-93c8-e0a7941c84b9" width="300" alt="Anime Chibi" />
       </td>
     </tr>
   </table>
