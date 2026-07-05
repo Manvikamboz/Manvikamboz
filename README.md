@@ -9,7 +9,7 @@
   <h1 align="center" style="margin-top: 0;"><b>Yo! I'm Manvi</b></h1>
   <p align="center" style="font-weight: normal; font-size: 16px; line-height: 1.6;">I write code, break things, fix them, and somehow end up building cool stuff. Most of my time goes into web development, open source, hackathons, and chasing the next "this would be fun to build" idea. Currently on a mission to build, contribute, and become the kind of engineer who makes people say, "Wait... you built that?"</p>
 </div>
-<br clear="both" />
+<!-- <br clear="both" /> -->
 <!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manvikmaboj)
 [![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/manvi_kamboj)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://www.leetcode.com/master_17)
