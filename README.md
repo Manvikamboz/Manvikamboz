@@ -137,6 +137,9 @@ while (bug.exists()) {
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Manvikamboz&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
 
+<br><br>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Manvikamboz&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
+
 </div>
 
 <!--
