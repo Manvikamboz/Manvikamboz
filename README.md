@@ -109,10 +109,10 @@ while (bug.exists()) {
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Manvikamboz&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
+<!-- <img height="165" src="https://github-readme-stats.vercel.app/api?username=Manvikamboz&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" /> -->
 <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Manvikamboz&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Manvikamboz&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+<!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Manvikamboz&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" /> -->
 
 <br><br>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Manvikamboz&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
