@@ -4,7 +4,7 @@
       <td align="center" valign="middle">
         <!-- <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=30&duration=3000&pause=1000&color=35C2FF&center=true&vCenter=true&width=650&lines=Yo!+I'm+Manvi+Kamboj;C%2B%2B+%26+DSA+Learner;Building+EdgeSight;Linux+Mint+User" alt="Typing intro" /> -->
         <br>
-        <h2><b>Yo! I'm Manvi</b></h2>
+        <h1><b>Yo! I'm Manvi</b></h1>
         <h4>I write code, break things, fix them, and somehow end up building cool stuff. Most of my time goes into web development, open source, hackathons, and chasing the next "this would be fun to build" idea.</h4>
       </td>
       <td align="center" valign="middle">
