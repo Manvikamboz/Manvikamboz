@@ -6,7 +6,7 @@
         <br>
         <h2><b>Yo! I'm Manvi</b></h2>
         <br>
-        <h2>I write code, break things, fix them, and somehow end up building cool stuff. Most of my time goes into web development, open source, hackathons, and chasing the next "this would be fun to build" idea.</h2>
+        <h4>I write code, break things, fix them, and somehow end up building cool stuff. Most of my time goes into web development, open source, hackathons, and chasing the next "this would be fun to build" idea.</h4>
       </td>
       <td align="center" valign="middle">
         <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/406eb3e6-caba-401d-93c8-e0a7941c84b9" width="200" alt="Anime Chibi" />
