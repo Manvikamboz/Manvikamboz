@@ -2,11 +2,11 @@
   <table>
     <tr>
       <td align="center" valign="middle">
-        <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=30&duration=3000&pause=1000&color=35C2FF&center=true&vCenter=true&width=650&lines=Yo!+I'm+Manvi+Kamboj;C%2B%2B+%26+DSA+Learner;Building+EdgeSight;Linux+Mint+User" alt="Typing intro" />
+        <!-- <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=30&duration=3000&pause=1000&color=35C2FF&center=true&vCenter=true&width=650&lines=Yo!+I'm+Manvi+Kamboj;C%2B%2B+%26+DSA+Learner;Building+EdgeSight;Linux+Mint+User" alt="Typing intro" /> -->
         <br>
-        <b>Yo! I'm Manvi</b>
+        <h2><b>Yo! I'm Manvi</b></h2>
         <br>
-        I write code, break things, fix them, and somehow end up building cool stuff. Most of my time goes into web development, open source, hackathons, and chasing the next "this would be fun to build" idea.
+        <h2>I write code, break things, fix them, and somehow end up building cool stuff. Most of my time goes into web development, open source, hackathons, and chasing the next "this would be fun to build" idea.</h2>
       </td>
       <td align="center" valign="middle">
         <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/406eb3e6-caba-401d-93c8-e0a7941c84b9" width="200" alt="Anime Chibi" />
