@@ -140,6 +140,9 @@ while (bug.exists()) {
 <br><br>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Manvikamboz&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
 
+<br><br>
+<img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Graph" />
+
 </div>
 
 <!--
