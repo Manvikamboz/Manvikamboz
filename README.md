@@ -142,11 +142,11 @@ My latest public pull requests, updated automatically:
 <!--START_SECTION:contributions-->
 | Pull Request | Related Issue | Repository | Status |
 | --- | --- | --- | --- |
+| [#9 fix(portfolio): wire up real project links and resume download](https://github.com/Manvikamboz/JJK-Retro-Arcade/pull/9) | [#8 "Launch Live Site" button shows a fake alert instead of opening project link](https://github.com/Manvikamboz/JJK-Retro-Arcade/issues/8) | `Manvikamboz/JJK-Retro-Arcade` | Merged |
 | [#93 fix(constants): correct Anthropic Opus model IDs](https://github.com/langchain-ai/openwiki/pull/93) | [#86 Two bugs in v0.0.1: Anthropic Opus model ID is invalid, and a single malformed tool call crashes the entire run](https://github.com/langchain-ai/openwiki/issues/86) | `langchain-ai/openwiki` | Closed |
 | [#92 fix(agent): handle tool validation errors gracefully](https://github.com/langchain-ai/openwiki/pull/92) | [#86 Two bugs in v0.0.1: Anthropic Opus model ID is invalid, and a single malformed tool call crashes the entire run](https://github.com/langchain-ai/openwiki/issues/86) | `langchain-ai/openwiki` | Open |
 | [#111 Refactor theme system to configuration-driven key system and expand c…](https://github.com/srizzon/git-city/pull/111) | [#100 [Feature] Expand Theme System with Additional Color Palettes](https://github.com/srizzon/git-city/issues/100) | `srizzon/git-city` | Closed |
 | [#4032 Fix race condition in PHPParserUnitTests caused by shared SQLite database](https://github.com/eranif/codelite/pull/4032) | [#4017 ctest failures](https://github.com/eranif/codelite/issues/4017) | `eranif/codelite` | Merged |
-| [#8 docs: remove NEWCOMER_ISSUES.md from repository tracking (keep local …](https://github.com/Can-Startora/Startora/pull/8) | Not linked | `Can-Startora/Startora` | Merged |
 <!--END_SECTION:contributions-->
 
 ---
