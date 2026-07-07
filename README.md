@@ -142,11 +142,11 @@ My latest public pull requests, updated automatically:
 <!--START_SECTION:contributions-->
 | Pull Request | Related Issue | Repository | Status |
 | --- | --- | --- | --- |
+| [#11 fix(memory-match): compare symbol string instead of label object reference](https://github.com/Manvikamboz/JJK-Retro-Arcade/pull/11) | [#6 MemoryMatch game is unwinnable — object reference equality makes matches impossible](https://github.com/Manvikamboz/JJK-Retro-Arcade/issues/6) | `Manvikamboz/JJK-Retro-Arcade` | Closed |
 | [#9 fix(portfolio): wire up real project links and resume download](https://github.com/Manvikamboz/JJK-Retro-Arcade/pull/9) | [#8 "Launch Live Site" button shows a fake alert instead of opening project link](https://github.com/Manvikamboz/JJK-Retro-Arcade/issues/8) | `Manvikamboz/JJK-Retro-Arcade` | Merged |
-| [#93 fix(constants): correct Anthropic Opus model IDs](https://github.com/langchain-ai/openwiki/pull/93) | [#86 Two bugs in v0.0.1: Anthropic Opus model ID is invalid, and a single malformed tool call crashes the entire run](https://github.com/langchain-ai/openwiki/issues/86) | `langchain-ai/openwiki` | Closed |
-| [#92 fix(agent): handle tool validation errors gracefully](https://github.com/langchain-ai/openwiki/pull/92) | [#86 Two bugs in v0.0.1: Anthropic Opus model ID is invalid, and a single malformed tool call crashes the entire run](https://github.com/langchain-ai/openwiki/issues/86) | `langchain-ai/openwiki` | Open |
-| [#111 Refactor theme system to configuration-driven key system and expand c…](https://github.com/srizzon/git-city/pull/111) | [#100 [Feature] Expand Theme System with Additional Color Palettes](https://github.com/srizzon/git-city/issues/100) | `srizzon/git-city` | Closed |
-| [#4032 Fix race condition in PHPParserUnitTests caused by shared SQLite database](https://github.com/eranif/codelite/pull/4032) | [#4017 ctest failures](https://github.com/eranif/codelite/issues/4017) | `eranif/codelite` | Merged |
+| [#18 fix(spaceshooter): ref-based game state eliminates nested setState an…](https://github.com/Manvikamboz/JJK-Retro-Arcade/pull/18) | [#3 setState called inside another setState updater — forbidden React pattern in SpaceShooter collision](https://github.com/Manvikamboz/JJK-Retro-Arcade/issues/3)<br>[#5 Game stutters on every laser fired — lasers state in game loop deps](https://github.com/Manvikamboz/JJK-Retro-Arcade/issues/5) | `Manvikamboz/JJK-Retro-Arcade` | Merged |
+| [#17 fix(retrogame): stable RAF loop via refs — eliminates stale closures and memory leakage](https://github.com/Manvikamboz/JJK-Retro-Arcade/pull/17) | [#2 Physics glitches and CPU spike — game loop re-creates RAF every frame in RetroGame](https://github.com/Manvikamboz/JJK-Retro-Arcade/issues/2)<br>[#4 Memory leak — multiple overlapping requestAnimationFrame loops in RetroGame](https://github.com/Manvikamboz/JJK-Retro-Arcade/issues/4) | `Manvikamboz/JJK-Retro-Arcade` | Merged |
+| [#16 chore: update package.json name to match actual project](https://github.com/Manvikamboz/JJK-Retro-Arcade/pull/16) | Not linked | `Manvikamboz/JJK-Retro-Arcade` | Merged |
 <!--END_SECTION:contributions-->
 
 ---
