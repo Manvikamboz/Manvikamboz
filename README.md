@@ -16,11 +16,11 @@
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/manvikamboj)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kamboj176manvi@gmail.com) -->
 
-</div>
+<!-- </div> -->
 
----
-
-<h2 align="center">About Me</h2>
+<!-- --- -->
+<!-- 
+<h2 align="center">About Me</h2> -->
 
 - Currently working on [Startora](https://github.com/Manvikamboz/Startora)
 - Practicing problem solving with **C++**
@@ -28,6 +28,10 @@
 - Ask me about **C++** and **DSA**
 - Exploring backend development, databases, and clean project architecture
 - Daily driver: **Linux Mint**
+
+<p align="center">
+  <img src="./assets/ascii_animation.gif" alt="ASCII Art Animation" width="450" />
+</p>
 
 <h2 align="center">
   <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/34376b0e-4ae2-4278-9d3d-82e8016a87d6" width="45" align="center" alt="Astronaut Cat" />
@@ -37,7 +41,7 @@
 
 <div align="center">
   <kbd>
-    <br>
+    <!-- <br> -->
     <table>
       <tr>
         <td align="center" valign="top" width="50%">
