@@ -14,7 +14,7 @@ END = "<!--END_SECTION:contributions-->"
 
 QUERY = """
 query($searchQuery: String!) {
-  search(query: $searchQuery, type: ISSUE, first: 5) {
+  search(query: $searchQuery, type: ISSUE, first: 3) {
     nodes {
       ... on PullRequest {
         number
@@ -108,22 +108,43 @@ def related_issues(pr):
 
 
 def make_table(pull_requests):
-    lines = [
-        "| Pull Request | Related Issue | Repository | Status |",
-        "| --- | --- | --- | --- |",
-    ]
-    for pr in pull_requests:
-        pr_link = f"[#{pr['number']} {escape(pr['title'])}]({pr['url']})"
-        issues = related_issues(pr)
-        issue_links = "<br>".join(
-            f"[#{issue['number']} {escape(issue['title'])}]({issue['url']})"
-            for issue in issues
-        ) or "Not linked"
-        repository = escape(pr["repository"]["nameWithOwner"])
-        status = "Merged" if pr["mergedAt"] else pr["state"].title()
-        lines.append(f"| {pr_link} | {issue_links} | `{repository}` | {status} |")
     if not pull_requests:
-        lines.append("| No public pull requests found | - | - | - |")
+        return "No public pull requests found."
+
+    by_repo = {}
+    for pr in pull_requests:
+        repo = pr["repository"]["nameWithOwner"]
+        if repo not in by_repo:
+            by_repo[repo] = []
+        by_repo[repo].append(pr)
+
+    lines = []
+    for repo, prs in by_repo.items():
+        lines.append(f"### 📦 `{repo}`")
+        lines.append("")
+        for pr in prs:
+            title = escape(pr['title'])
+            pr_link = f"[**#{pr['number']}** {title}]({pr['url']})"
+
+            status_text = "Merged" if pr["mergedAt"] else pr["state"].title()
+            if status_text == "Merged":
+                badge = "![Merged](https://img.shields.io/badge/Merged-8250DF?style=flat-square&logo=github&logoColor=white)"
+            elif status_text == "Closed":
+                badge = "![Closed](https://img.shields.io/badge/Closed-D1242F?style=flat-square&logo=github&logoColor=white)"
+            else:
+                badge = "![Open](https://img.shields.io/badge/Open-2EA44F?style=flat-square&logo=github&logoColor=white)"
+
+            issues = related_issues(pr)
+            issue_links = ", ".join(
+                f"[#{issue['number']}]({issue['url']}) {escape(issue['title'])}"
+                for issue in issues
+            )
+
+            lines.append(f"- {badge} {pr_link}")
+            if issue_links:
+                lines.append(f"  - **Resolves:** {issue_links}")
+            lines.append("")
+
     return "\n".join(lines)
 
 

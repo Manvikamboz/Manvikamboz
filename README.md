@@ -25,8 +25,8 @@
 - Currently working on [Startora](https://github.com/Manvikamboz/Startora)
 - Practicing problem solving with **C++**
 <!-- , **GFG**, and **LeetCode** -->
-- Ask me about **C++** and **DSA**
-- Exploring backend development, databases, and clean project architecture
+- Ask me about **C++**, **DSA**, and **Cybersecurity**
+- Exploring backend development, threat detection, and systems security
 - Daily driver: **Linux Mint**
 <!-- 
 <p align="center">
@@ -87,6 +87,23 @@
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="42" height="42" alt="AWS" />
         </td>
       </tr>
+      <tr>
+        <td align="center" valign="top" width="50%">
+          <kbd><b>Cybersecurity Tools</b></kbd>
+          <br><br>
+          <img src="https://cdn.simpleicons.org/wireshark" width="42" height="42" alt="Wireshark" />
+          <img src="https://cdn.simpleicons.org/kalilinux" width="42" height="42" alt="Kali Linux" />
+          <img src="https://cdn.simpleicons.org/burpsuite" width="42" height="42" alt="Burp Suite" />
+          <img src="https://cdn.simpleicons.org/metasploit" width="42" height="42" alt="Metasploit" />
+          <img src="https://cdn.simpleicons.org/owasp" width="42" height="42" alt="OWASP" />
+        </td>
+        <td align="center" valign="top" width="50%">
+          <kbd><b>Security Platforms & Concepts</b></kbd>
+          <br><br>
+          <img src="https://cdn.simpleicons.org/portswigger" width="42" height="42" alt="PortSwigger" />
+          <img src="https://cdn.simpleicons.org/tryhackme" width="42" height="42" alt="TryHackMe" />
+        </td>
+      </tr>
     </table>
   </kbd>
 </div>
@@ -144,13 +161,20 @@ while (bug.exists()) {
 My latest public pull requests, updated automatically:
 
 <!--START_SECTION:contributions-->
-| Pull Request | Related Issue | Repository | Status |
-| --- | --- | --- | --- |
-| [#4708 fix: add t:urlDecodeUni to rules 921151 and 932190 (#3919)](https://github.com/coreruleset/coreruleset/pull/4708) | [#3919 Some rules are NOT doing IIS specific decoding of ARGS* data](https://github.com/coreruleset/coreruleset/issues/3919) | `coreruleset/coreruleset` | Open |
-| [#92 fix(agent): handle tool validation errors gracefully](https://github.com/langchain-ai/openwiki/pull/92) | [#86 Two bugs in v0.0.1: Anthropic Opus model ID is invalid, and a single malformed tool call crashes the entire run](https://github.com/langchain-ai/openwiki/issues/86) | `langchain-ai/openwiki` | Closed |
-| [#11 fix(memory-match): compare symbol string instead of label object reference](https://github.com/Manvikamboz/JJK-Retro-Arcade/pull/11) | [#6 MemoryMatch game is unwinnable — object reference equality makes matches impossible](https://github.com/Manvikamboz/JJK-Retro-Arcade/issues/6) | `Manvikamboz/JJK-Retro-Arcade` | Closed |
-| [#9 fix(portfolio): wire up real project links and resume download](https://github.com/Manvikamboz/JJK-Retro-Arcade/pull/9) | [#8 "Launch Live Site" button shows a fake alert instead of opening project link](https://github.com/Manvikamboz/JJK-Retro-Arcade/issues/8) | `Manvikamboz/JJK-Retro-Arcade` | Merged |
-| [#18 fix(spaceshooter): ref-based game state eliminates nested setState an…](https://github.com/Manvikamboz/JJK-Retro-Arcade/pull/18) | [#3 setState called inside another setState updater — forbidden React pattern in SpaceShooter collision](https://github.com/Manvikamboz/JJK-Retro-Arcade/issues/3)<br>[#5 Game stutters on every laser fired — lasers state in game loop deps](https://github.com/Manvikamboz/JJK-Retro-Arcade/issues/5) | `Manvikamboz/JJK-Retro-Arcade` | Merged |
+### 📦 `coreruleset/coreruleset`
+
+- ![Open](https://img.shields.io/badge/Open-2EA44F?style=flat-square&logo=github&logoColor=white) [**#4708** fix: add t:urlDecodeUni to rules 921151 and 932190 (#3919)](https://github.com/coreruleset/coreruleset/pull/4708)
+  - **Resolves:** [#3919](https://github.com/coreruleset/coreruleset/issues/3919) Some rules are NOT doing IIS specific decoding of ARGS* data
+
+### 📦 `langchain-ai/openwiki`
+
+- ![Closed](https://img.shields.io/badge/Closed-D1242F?style=flat-square&logo=github&logoColor=white) [**#92** fix(agent): handle tool validation errors gracefully](https://github.com/langchain-ai/openwiki/pull/92)
+  - **Resolves:** [#86](https://github.com/langchain-ai/openwiki/issues/86) Two bugs in v0.0.1: Anthropic Opus model ID is invalid, and a single malformed tool call crashes the entire run
+
+### 📦 `Manvikamboz/JJK-Retro-Arcade`
+
+- ![Closed](https://img.shields.io/badge/Closed-D1242F?style=flat-square&logo=github&logoColor=white) [**#11** fix(memory-match): compare symbol string instead of label object reference](https://github.com/Manvikamboz/JJK-Retro-Arcade/pull/11)
+  - **Resolves:** [#6](https://github.com/Manvikamboz/JJK-Retro-Arcade/issues/6) MemoryMatch game is unwinnable — object reference equality makes matches impossible
 <!--END_SECTION:contributions-->
 
 ---
