@@ -108,6 +108,13 @@ while (bug.exists()) {
 
 <div align="center">
 
+<!-- <img height="165" src="https://github-readme-stats.vercel.app/api?username=Manvikamboz&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" /> -->
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Manvikamboz&hide_border=true&background=0D0D0D&border=FF2D9A&stroke=FF2D9A&ring=FF2D9A&fire=FF6EC7&currStreakNum=FF6EC7&sideNums=FF2D9A&currStreakLabel=FF2D9A&sideLabels=FF2D9A&dates=9B9BA4" alt="GitHub streak" />
+
+<!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Manvikamboz&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" /> -->
+
+<br><br>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
@@ -115,13 +122,6 @@ while (bug.exists()) {
     <img alt="GitHub Jet Heatmap" src="./dark.svg" style="max-width: 100%;">
   </picture>
 </p>
-
-<br>
-
-<!-- <img height="165" src="https://github-readme-stats.vercel.app/api?username=Manvikamboz&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" /> -->
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Manvikamboz&hide_border=true&background=0D0D0D&border=FF2D9A&stroke=FF2D9A&ring=FF2D9A&fire=FF6EC7&currStreakNum=FF6EC7&sideNums=FF2D9A&currStreakLabel=FF2D9A&sideLabels=FF2D9A&dates=9B9BA4" alt="GitHub streak" />
-
-<!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Manvikamboz&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" /> -->
 
 <br><br>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Manvikamboz&bg_color=0D0D0D&color=FF6EC7&line=FF2D9A&point=FF2D9A&area=true&area_color=FF2D9A&hide_border=true" alt="Activity Graph" />
