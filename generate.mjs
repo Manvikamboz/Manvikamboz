@@ -150,20 +150,15 @@ async function getWeeksData() {
   return await fetchWeeksFromHTML();
 }
 
-function buildCells(weeks, theme) {
-  const recent = weeks.slice(-COLS);
-  const padCount = COLS - recent.length;
-  const padded = Array.from({ length: padCount }, () => ({
-    contributionDays: Array.from({ length: ROWS }, () => ({
-      contributionCount: 0,
-      level: 0,
-      color: theme.levelColors[0],
-      date: null,
-    })),
-  })).concat(recent);
+function filterWeeksFor2026(weeks) {
+  return weeks.filter((w) =>
+    w.contributionDays && w.contributionDays.some((d) => d.date && d.date >= "2026-01-01")
+  );
+}
 
+function buildCells(weeks, theme, COLS) {
   const cells = [];
-  padded.forEach((week, col) => {
+  weeks.forEach((week, col) => {
     week.contributionDays.forEach((day, row) => {
       let color = day.color;
       if (!color) {
@@ -192,9 +187,9 @@ function pickTargets(cells) {
     .sort((a, b) => a.col - b.col || a.row - b.row);
 }
 
-function keyTimeForCol(col, direction) {
+function keyTimeForCol(col, COLS, direction) {
   const span = 0.46;
-  const t = 0.02 + (col / (COLS - 1)) * span;
+  const t = 0.02 + (col / Math.max(1, COLS - 1)) * span;
   return direction === "forward" ? t : 1 - t;
 }
 
@@ -202,7 +197,7 @@ function fmt(n) {
   return Number(n.toFixed(4));
 }
 
-function buildGrid(cells, targets, theme) {
+function buildGrid(cells, targets, theme, COLS) {
   const targetKey = new Set(targets.map((t) => `${t.col}-${t.row}`));
   let svg = "";
   for (const c of cells) {
@@ -211,8 +206,8 @@ function buildGrid(cells, targets, theme) {
       svg += `<rect x="${c.x.toFixed(2)}" y="${c.y.toFixed(2)}" width="${CELL}" height="${CELL}" rx="2" ry="2" fill="${c.color}"/>\n`;
       continue;
     }
-    const tFwd = keyTimeForCol(c.col, "forward");
-    const tBack = keyTimeForCol(c.col, "backward");
+    const tFwd = keyTimeForCol(c.col, COLS, "forward");
+    const tBack = keyTimeForCol(c.col, COLS, "backward");
     const [t1, t2] = [Math.min(tFwd, tBack), Math.max(tFwd, tBack)];
     const dur = 0.006;
     svg += `<rect x="${c.x.toFixed(2)}" y="${c.y.toFixed(2)}" width="${CELL}" height="${CELL}" rx="2" ry="2" fill="${c.color}">` +
@@ -224,7 +219,7 @@ function buildGrid(cells, targets, theme) {
   return svg;
 }
 
-function buildBulletsAndBlasts(targets, theme) {
+function buildBulletsAndBlasts(targets, theme, COLS) {
   let bullets = "";
   let blasts = "";
   const dur = 0.006;
@@ -232,7 +227,7 @@ function buildBulletsAndBlasts(targets, theme) {
   for (const dir of ["forward", "backward"]) {
     const ordered = dir === "forward" ? targets : [...targets].reverse();
     for (const c of ordered) {
-      const t = keyTimeForCol(c.col, dir);
+      const t = keyTimeForCol(c.col, COLS, dir);
       const rise = t - dur * 3;
       const arrive = t;
       const fadeEnd = t + dur;
@@ -257,18 +252,18 @@ function buildBulletsAndBlasts(targets, theme) {
   return { bullets, blasts };
 }
 
-function buildStars(theme) {
+function buildStars(theme, width) {
   const pts = [
     [8, 20, 1.2], [8, 60, 1.6], [8, 100, 2.0],
-    [765, 25, 1.2], [765, 70, 1.6], [765, 110, 2.0],
-    [30, 164, 1.2], [745, 164, 1.6],
+    [width - 10, 25, 1.2], [width - 10, 70, 1.6], [width - 10, 110, 2.0],
+    [30, 164, 1.2], [width - 30, 164, 1.6],
   ];
   return pts.map(([x, y, dur]) =>
     `<circle cx="${x}" cy="${y}" r="1.1" fill="${theme.star}"><animate attributeName="opacity" values="0.2;1;0.2" dur="${dur}s" repeatCount="indefinite"/></circle>`
   ).join("\n");
 }
 
-function buildJet(theme) {
+function buildJet(theme, jetXStart, jetXEnd) {
   return `<g id="jet">
   <g transform="translate(0,0)">
     <polygon points="0,-16 8,6 4,3 -4,3 -8,6" fill="${theme.jetMain}" stroke="${theme.jetStroke}" stroke-width="1"/>
@@ -282,31 +277,37 @@ function buildJet(theme) {
   <animateTransform attributeName="transform" attributeType="XML" type="translate"
     dur="${LOOP_DUR}s" repeatCount="indefinite"
     keyTimes="0;0.5;1"
-    values="${JET_X_START}.00,140.00;${JET_X_END}.00,140.00;${JET_X_START}.00,140.00"/>
+    values="${jetXStart}.00,140.00;${jetXEnd}.00,140.00;${jetXStart}.00,140.00"/>
 </g>`;
 }
 
 function generateSvgForTheme(weeks, theme) {
-  const cells = buildCells(weeks, theme);
-  const targets = pickTargets(cells);
-  const { bullets, blasts } = buildBulletsAndBlasts(targets, theme);
+  const COLS = weeks.length;
+  const width = GRID_X * 2 + (COLS - 1) * STEP + CELL;
+  const jetXEnd = GRID_X + (COLS - 1) * STEP + 10;
 
-  return `<svg viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">
-<rect x="0" y="0" width="${WIDTH}" height="${HEIGHT}" fill="${theme.bg}"/>
-${buildStars(theme)}
+  const cells = buildCells(weeks, theme, COLS);
+  const targets = pickTargets(cells);
+  const { bullets, blasts } = buildBulletsAndBlasts(targets, theme, COLS);
+
+  return `<svg viewBox="0 0 ${width} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="${width}" height="${HEIGHT}" fill="${theme.bg}"/>
+${buildStars(theme, width)}
 <g id="grid">
-${buildGrid(cells, targets, theme)}</g>
+${buildGrid(cells, targets, theme, COLS)}</g>
 <g id="bullets">
 ${bullets}</g>
 <g id="blasts">
 ${blasts}</g>
-${buildJet(theme)}
+${buildJet(theme, JET_X_START, jetXEnd)}
 </svg>`;
 }
 
 async function main() {
   console.log(`Generating GitHub Jet Heatmap animation for user: ${USERNAME}...`);
-  const weeks = await getWeeksData();
+  let weeks = await getWeeksData();
+  weeks = filterWeeksFor2026(weeks);
+  console.log(`Filtered contribution data to ${weeks.length} weeks for year 2026.`);
 
   const darkSvg = generateSvgForTheme(weeks, DARK_THEME);
   const lightSvg = generateSvgForTheme(weeks, LIGHT_THEME);
