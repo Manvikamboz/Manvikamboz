@@ -173,7 +173,7 @@ My latest public pull requests, updated automatically:
 
 ---
 
-## 🤝 Connect with Me
+## Connect with Me
 
 <div align="center">
 
