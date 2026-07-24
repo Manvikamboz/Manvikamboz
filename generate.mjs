@@ -31,29 +31,29 @@ const PAD_Y = 128; // bullet launch line
 const DARK_THEME = {
   bg: "#0d1117",
   star: "#8b949e",
-  flash: "#39d353",
-  bullet: "#7ee787",
-  blast: "#56d364",
+  flash: "#ff69b4",
+  bullet: "#ff99d8",
+  blast: "#ff69b4",
   jetMain: "#58a6ff",
   jetStroke: "#1f6feb",
   jetWing: "#388bfd",
   jetCockpit: "#c9e6ff",
   jetFlame: "#f0883e",
-  levelColors: ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"],
+  levelColors: ["#161b22", "#4a1534", "#912361", "#e03e8c", "#ff69b4"],
 };
 
 const LIGHT_THEME = {
   bg: "#ffffff",
   star: "#d0d7de",
-  flash: "#2ea44f",
-  bullet: "#1a7f37",
-  blast: "#2da44e",
+  flash: "#f74799",
+  bullet: "#d61b6e",
+  blast: "#f74799",
   jetMain: "#0969da",
   jetStroke: "#0550ae",
   jetWing: "#2188ff",
   jetCockpit: "#ddf4ff",
   jetFlame: "#ff8c00",
-  levelColors: ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
+  levelColors: ["#ebedf0", "#ffc2e2", "#ff85c0", "#f74799", "#d61b6e"],
 };
 
 const QUERY = `
