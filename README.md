@@ -123,8 +123,8 @@ while (bug.exists()) {
   </picture>
 </p>
 
-<br>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Manvikamboz&bg_color=0D0D0D&color=FF6EC7&line=FF2D9A&point=FF2D9A&area=true&area_color=FF2D9A&hide_border=true" alt="Activity Graph" />
+<!-- <br>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Manvikamboz&bg_color=0D0D0D&color=FF6EC7&line=FF2D9A&point=FF2D9A&area=true&area_color=FF2D9A&hide_border=true" alt="Activity Graph" /> -->
 
 <br>
 <img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D Contribution Graph" />
