@@ -311,14 +311,6 @@ async function main() {
   fs.writeFileSync(path.resolve("dark.svg"), darkSvg, "utf8");
   fs.writeFileSync(path.resolve("light.svg"), lightSvg, "utf8");
   console.log("Successfully wrote dark.svg and light.svg");
-
-  // Also write to dist/ for compatibility if requested
-  const distDir = path.resolve("dist");
-  fs.mkdirSync(distDir, { recursive: true });
-  fs.writeFileSync(path.join(distDir, "dark.svg"), darkSvg, "utf8");
-  fs.writeFileSync(path.join(distDir, "light.svg"), lightSvg, "utf8");
-  fs.writeFileSync(path.join(distDir, "github-jet.svg"), darkSvg, "utf8");
-  console.log("Successfully wrote dist/dark.svg, dist/light.svg, and dist/github-jet.svg");
 }
 
 main().catch((err) => {
