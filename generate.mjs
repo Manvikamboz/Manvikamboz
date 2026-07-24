@@ -34,11 +34,11 @@ const DARK_THEME = {
   flash: "#ff69b4",
   bullet: "#ff99d8",
   blast: "#ff69b4",
-  jetMain: "#58a6ff",
-  jetStroke: "#1f6feb",
-  jetWing: "#388bfd",
-  jetCockpit: "#c9e6ff",
-  jetFlame: "#f0883e",
+  jetMain: "#ff69b4",
+  jetStroke: "#c62871",
+  jetWing: "#e03e8c",
+  jetCockpit: "#ffebf5",
+  jetFlame: "#ff1493",
   levelColors: ["#161b22", "#4a1534", "#912361", "#e03e8c", "#ff69b4"],
 };
 
@@ -48,11 +48,11 @@ const LIGHT_THEME = {
   flash: "#f74799",
   bullet: "#d61b6e",
   blast: "#f74799",
-  jetMain: "#0969da",
-  jetStroke: "#0550ae",
-  jetWing: "#2188ff",
-  jetCockpit: "#ddf4ff",
-  jetFlame: "#ff8c00",
+  jetMain: "#f74799",
+  jetStroke: "#b0125b",
+  jetWing: "#d61b6e",
+  jetCockpit: "#fff0f6",
+  jetFlame: "#ff69b4",
   levelColors: ["#ebedf0", "#ffc2e2", "#ff85c0", "#f74799", "#d61b6e"],
 };
 

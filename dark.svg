@@ -434,11 +434,11 @@
 </g>
 <g id="jet">
   <g transform="translate(0,0)">
-    <polygon points="0,-16 8,6 4,3 -4,3 -8,6" fill="#58a6ff" stroke="#1f6feb" stroke-width="1"/>
-    <polygon points="-8,6 -14,12 -4,7" fill="#388bfd"/>
-    <polygon points="8,6 14,12 4,7" fill="#388bfd"/>
-    <circle cx="0" cy="-6" r="2.2" fill="#c9e6ff"/>
-    <polygon points="-3,7 3,7 0,15" fill="#f0883e">
+    <polygon points="0,-16 8,6 4,3 -4,3 -8,6" fill="#ff69b4" stroke="#c62871" stroke-width="1"/>
+    <polygon points="-8,6 -14,12 -4,7" fill="#e03e8c"/>
+    <polygon points="8,6 14,12 4,7" fill="#e03e8c"/>
+    <circle cx="0" cy="-6" r="2.2" fill="#ffebf5"/>
+    <polygon points="-3,7 3,7 0,15" fill="#ff1493">
       <animate attributeName="opacity" values="0.5;1;0.6;1" dur="0.18s" repeatCount="indefinite"/>
     </polygon>
   </g>
