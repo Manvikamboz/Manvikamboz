@@ -14,16 +14,16 @@ import path from "node:path";
 const USERNAME = process.env.GH_USERNAME || "Manvikamboz";
 const TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
 
-const COLS = 34; // weeks shown
+const COLS = 53; // full year of weeks shown
 const ROWS = 7;
 const CELL = 11;
 const STEP = 14; // cell + gap
 const GRID_X = 20;
 const GRID_Y = 15;
-const WIDTH = 513;
+const WIDTH = 775;
 const HEIGHT = 170;
 const JET_X_START = 35;
-const JET_X_END = 478;
+const JET_X_END = 735;
 const LOOP_DUR = 20; // seconds, one full there-and-back pass
 const MAX_TARGETS = 12; // how many busiest days the jet fires on
 const PAD_Y = 128; // bullet launch line
@@ -122,6 +122,10 @@ async function fetchWeeksFromHTML() {
   if (days.length === 0) {
     throw new Error("Could not parse contribution days from GitHub HTML");
   }
+
+  // GitHub HTML table lists days by row (Sundays first, Mondays second, etc.).
+  // Sort chronologically by date so grouping into 7-day weeks is 100% accurate.
+  days.sort((a, b) => a.date.localeCompare(b.date));
 
   // Group into weeks of 7 days
   const weeks = [];
@@ -256,8 +260,8 @@ function buildBulletsAndBlasts(targets, theme) {
 function buildStars(theme) {
   const pts = [
     [8, 20, 1.2], [8, 60, 1.6], [8, 100, 2.0],
-    [505, 25, 1.2], [505, 70, 1.6], [505, 110, 2.0],
-    [30, 164, 1.2], [483, 164, 1.6],
+    [765, 25, 1.2], [765, 70, 1.6], [765, 110, 2.0],
+    [30, 164, 1.2], [745, 164, 1.6],
   ];
   return pts.map(([x, y, dur]) =>
     `<circle cx="${x}" cy="${y}" r="1.1" fill="${theme.star}"><animate attributeName="opacity" values="0.2;1;0.2" dur="${dur}s" repeatCount="indefinite"/></circle>`
