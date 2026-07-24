@@ -130,6 +130,16 @@ while (bug.exists()) {
 
 <div align="center">
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Manvikamboz/Manvikamboz/main/dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Manvikamboz/Manvikamboz/main/light.svg">
+    <img alt="GitHub Jet Heatmap" src="https://raw.githubusercontent.com/Manvikamboz/Manvikamboz/main/dark.svg" width="100%">
+  </picture>
+</p>
+
+<br>
+
 <!-- <img height="165" src="https://github-readme-stats.vercel.app/api?username=Manvikamboz&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" /> -->
 <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Manvikamboz&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
