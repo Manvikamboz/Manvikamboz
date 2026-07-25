@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Generate SVG
         env:
@@ -31,4 +31,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update jet heatmap SVG"
-          file_pattern: "dark.svg light.svg dist/*"
+          file_pattern: "dark.svg light.svg"
