@@ -176,7 +176,7 @@
 <rect x="342.00" y="57.00" width="11" height="11" rx="2" ry="2" fill="#f74799"/>
 <rect x="342.00" y="71.00" width="11" height="11" rx="2" ry="2" fill="#d61b6e"><animate attributeName="fill" dur="20s" repeatCount="indefinite" keyTimes="0;0.3727;0.3787;0.6273;0.6333;1" values="#d61b6e;#d61b6e;#f74799;#d61b6e;#f74799;#d61b6e"/></rect>
 <rect x="342.00" y="85.00" width="11" height="11" rx="2" ry="2" fill="#ffc2e2"/>
-<rect x="342.00" y="99.00" width="11" height="11" rx="2" ry="2" fill="#f74799"/>
+<rect x="342.00" y="99.00" width="11" height="11" rx="2" ry="2" fill="#d61b6e"/>
 <rect x="356.00" y="15.00" width="11" height="11" rx="2" ry="2" fill="#d61b6e"/>
 <rect x="356.00" y="29.00" width="11" height="11" rx="2" ry="2" fill="#ff85c0"/>
 <rect x="356.00" y="43.00" width="11" height="11" rx="2" ry="2" fill="#d61b6e"><animate attributeName="fill" dur="20s" repeatCount="indefinite" keyTimes="0;0.388;0.394;0.612;0.618;1" values="#d61b6e;#d61b6e;#f74799;#d61b6e;#f74799;#d61b6e"/></rect>
@@ -215,14 +215,15 @@
 <rect x="426.00" y="15.00" width="11" height="11" rx="2" ry="2" fill="#d61b6e"/>
 <rect x="426.00" y="29.00" width="11" height="11" rx="2" ry="2" fill="#ff85c0"/>
 <rect x="426.00" y="43.00" width="11" height="11" rx="2" ry="2" fill="#f74799"/>
-<rect x="426.00" y="57.00" width="11" height="11" rx="2" ry="2" fill="#f74799"/>
+<rect x="426.00" y="57.00" width="11" height="11" rx="2" ry="2" fill="#d61b6e"/>
 <rect x="426.00" y="71.00" width="11" height="11" rx="2" ry="2" fill="#ff85c0"/>
 <rect x="426.00" y="85.00" width="11" height="11" rx="2" ry="2" fill="#d61b6e"><animate attributeName="fill" dur="20s" repeatCount="indefinite" keyTimes="0;0.4647;0.4707;0.5353;0.5413;1" values="#d61b6e;#d61b6e;#f74799;#d61b6e;#f74799;#d61b6e"/></rect>
 <rect x="426.00" y="99.00" width="11" height="11" rx="2" ry="2" fill="#d61b6e"/>
 <rect x="440.00" y="15.00" width="11" height="11" rx="2" ry="2" fill="#ff85c0"/>
 <rect x="440.00" y="29.00" width="11" height="11" rx="2" ry="2" fill="#ffc2e2"/>
 <rect x="440.00" y="43.00" width="11" height="11" rx="2" ry="2" fill="#ff85c0"/>
-<rect x="440.00" y="57.00" width="11" height="11" rx="2" ry="2" fill="#ff85c0"/>
+<rect x="440.00" y="57.00" width="11" height="11" rx="2" ry="2" fill="#f74799"/>
+<rect x="440.00" y="71.00" width="11" height="11" rx="2" ry="2" fill="#f74799"/>
 </g>
 <g id="bullets">
 <circle cx="207.5" cy="128" r="2.4" fill="#d61b6e"><animate attributeName="cy" dur="20s" repeatCount="indefinite" keyTimes="0;0.2013;0.2193;1" values="128;128;48.5;48.5"/><animate attributeName="opacity" dur="20s" repeatCount="indefinite" keyTimes="0;0.2013;0.2193;0.2253;1" values="0;1;1;0;0"/></circle>
