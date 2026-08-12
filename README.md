@@ -154,20 +154,16 @@ while (bug.exists()) {
 My latest public pull requests, updated automatically:
 
 <!--START_SECTION:contributions-->
-### 📦 `coreruleset/coreruleset`
+### 📦 `alexwohlbruck/cat-facts`
 
-- ![Open](https://img.shields.io/badge/Open-2EA44F?style=flat-square&logo=github&logoColor=white) [**#4708** fix: add t:urlDecodeUni to rules 921151 and 932190 (#3919)](https://github.com/coreruleset/coreruleset/pull/4708)
-  - **Resolves:** [#3919](https://github.com/coreruleset/coreruleset/issues/3919) Some rules are NOT doing IIS specific decoding of ARGS* data
+- ![Closed](https://img.shields.io/badge/Closed-D1242F?style=flat-square&logo=github&logoColor=white) [**#199** fix: prevent failed IFTTT deliveries from being saved as successful s…](https://github.com/alexwohlbruck/cat-facts/pull/199)
+  - **Resolves:** [#198](https://github.com/alexwohlbruck/cat-facts/issues/198) No error handling when IFTTT message requests fail
 
-### 📦 `langchain-ai/openwiki`
+- ![Closed](https://img.shields.io/badge/Closed-D1242F?style=flat-square&logo=github&logoColor=white) [**#197** Fix/promise handling issue](https://github.com/alexwohlbruck/cat-facts/pull/197)
+  - **Resolves:** [#194](https://github.com/alexwohlbruck/cat-facts/issues/194) Bot isnt sending messages to numbers
 
-- ![Closed](https://img.shields.io/badge/Closed-D1242F?style=flat-square&logo=github&logoColor=white) [**#92** fix(agent): handle tool validation errors gracefully](https://github.com/langchain-ai/openwiki/pull/92)
-  - **Resolves:** [#86](https://github.com/langchain-ai/openwiki/issues/86) Two bugs in v0.0.1: Anthropic Opus model ID is invalid, and a single malformed tool call crashes the entire run
-
-### 📦 `Manvikamboz/JJK-Retro-Arcade`
-
-- ![Closed](https://img.shields.io/badge/Closed-D1242F?style=flat-square&logo=github&logoColor=white) [**#11** fix(memory-match): compare symbol string instead of label object reference](https://github.com/Manvikamboz/JJK-Retro-Arcade/pull/11)
-  - **Resolves:** [#6](https://github.com/Manvikamboz/JJK-Retro-Arcade/issues/6) MemoryMatch game is unwinnable — object reference equality makes matches impossible
+- ![Closed](https://img.shields.io/badge/Closed-D1242F?style=flat-square&logo=github&logoColor=white) [**#196** feat: show toast alert before redirecting unauthenticated users to si…](https://github.com/alexwohlbruck/cat-facts/pull/196)
+  - **Resolves:** [#164](https://github.com/alexwohlbruck/cat-facts/issues/164) alert "sign in first"
 
 <!--END_SECTION:contributions-->
 
