@@ -154,17 +154,17 @@ while (bug.exists()) {
 My latest public pull requests, updated automatically:
 
 <!--START_SECTION:contributions-->
+### 📦 `coreruleset/coreruleset`
+
+- ![Open](https://img.shields.io/badge/Open-2EA44F?style=flat-square&logo=github&logoColor=white) [**#4708** fix: add t:urlDecodeUni to rules 921151 and 932190 (#3919)](https://github.com/coreruleset/coreruleset/pull/4708)
+  - **Resolves:** [#3919](https://github.com/coreruleset/coreruleset/issues/3919) Some rules are NOT doing IIS specific decoding of ARGS* data
+
 ### 📦 `google/clusterfuzz`
 
 - ![Open](https://img.shields.io/badge/Open-2EA44F?style=flat-square&logo=github&logoColor=white) [**#5539** Fix issue redirector acl](https://github.com/google/clusterfuzz/pull/5539)
 
 - ![Closed](https://img.shields.io/badge/Closed-D1242F?style=flat-square&logo=github&logoColor=white) [**#5320** Fix security-sensitive testcase enumeration in issue redirector by en…](https://github.com/google/clusterfuzz/pull/5320)
   - **Resolves:** [#5319](https://github.com/google/clusterfuzz/issues/5319) /issue/<testcase_id> redirector omits the testcase access check, disclosing the existence and restricted bug URL of security-sensitive testcases
-
-### 📦 `parthbuilds-community/FitMart`
-
-- ![Closed](https://img.shields.io/badge/Closed-D1242F?style=flat-square&logo=github&logoColor=white) [**#549** fix: add missing FitnessCenter schema fields](https://github.com/parthbuilds-community/FitMart/pull/549)
-  - **Resolves:** [#533](https://github.com/parthbuilds-community/FitMart/issues/533) Fix: Update FitnessCenter Schema to include missing seed data fields (#359)
 
 <!--END_SECTION:contributions-->
 
